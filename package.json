@@ -1,0 +1,72 @@
+{
+  "_generated": {
+    "system": "package-json@1.0.0",
+    "status": "generated",
+    "edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+  },
+  "name": "@teamscala/rate-limit",
+  "capability": "Sliding-window rate limiter with central registry and per-limiter enable/disable. The single sanctioned rate-limit surface.",
+  "tier": "foundation",
+  "type": "module",
+  "version": "1.0.55",
+  "description": "Sliding-window rate limiter with central registry and per-limiter enable/disable. The single sanctioned rate-limit surface.",
+  "imports": {
+    "#rate-limit/*": "./src/*",
+    "#rate-limit/*.ts": "./src/*.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bun-types": "*",
+    "@happy-dom/global-registrator": "*",
+    "@testing-library/react": "*"
+  },
+  "exports": {
+    "./configure": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./configure.ts": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./create-keyed-rate-limiter": {
+      "types": "./src/create-keyed-rate-limiter.d.ts",
+      "default": "./src/create-keyed-rate-limiter.ts"
+    },
+    "./create-keyed-rate-limiter.ts": {
+      "types": "./src/create-keyed-rate-limiter.d.ts",
+      "default": "./src/create-keyed-rate-limiter.ts"
+    },
+    "./create-rate-limiter": {
+      "types": "./src/create-rate-limiter.d.ts",
+      "default": "./src/create-rate-limiter.ts"
+    },
+    "./create-rate-limiter.ts": {
+      "types": "./src/create-rate-limiter.d.ts",
+      "default": "./src/create-rate-limiter.ts"
+    },
+    "./registry": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./registry.ts": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./types": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    },
+    "./types.ts": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    }
+  },
+  "repository": "https://github.com/teamgbg/bun-foundation-rate-limit",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
