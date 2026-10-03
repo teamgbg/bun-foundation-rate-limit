@@ -35,7 +35,7 @@
 		"./types": "./src/types.ts",
 		"./types.ts": "./src/types.ts"
 	},
-	"repository": "https://github.com/teamgbg/bun-foundation-rate-limit",
+	"repository": "https://github.com/teamgbg/foundation-rate-limit-ts",
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org"
 	}
